@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T15:45:02.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="7ridThksJzoIqwUnS5Ym" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-22T15:53:32.539Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="mnmD-YbD1kMPrUr1IchC" version="21.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1379" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,10 @@
         <mxCell id="zV91i3TBx5Ar2BxEWcz4-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="388" y="700" />
+              <mxPoint x="221" y="700" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Open Weather map" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -149,6 +153,52 @@
         </mxCell>
         <mxCell id="zV91i3TBx5Ar2BxEWcz4-23" value="meteostat · PyPI" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zV91i3TBx5Ar2BxEWcz4-19">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zV91i3TBx5Ar2BxEWcz4-24" value="weatherstack" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="810" width="160" height="138" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV91i3TBx5Ar2BxEWcz4-27" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zV91i3TBx5Ar2BxEWcz4-24">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zV91i3TBx5Ar2BxEWcz4-28" value="How to Visualize Global Weather Data in Python - Weatherstack" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zV91i3TBx5Ar2BxEWcz4-24">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zV91i3TBx5Ar2BxEWcz4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zV91i3TBx5Ar2BxEWcz4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="438" y="560" as="sourcePoint" />
+            <mxPoint x="630" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="560" />
+              <mxPoint x="480" y="710" />
+              <mxPoint x="490" y="710" />
+              <mxPoint x="490" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV91i3TBx5Ar2BxEWcz4-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.438;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zV91i3TBx5Ar2BxEWcz4-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="560" as="sourcePoint" />
+            <mxPoint x="246" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="730" />
+              <mxPoint x="330" y="730" />
+              <mxPoint x="330" y="807" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV91i3TBx5Ar2BxEWcz4-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zV91i3TBx5Ar2BxEWcz4-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="452" y="560" as="sourcePoint" />
+            <mxPoint x="348" y="807" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="452" y="740" />
+              <mxPoint x="490" y="740" />
+              <mxPoint x="490" y="807" />
+              <mxPoint x="540" y="807" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
